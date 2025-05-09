@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { ProfileForm } from "./components/profileForm";
+import MainComponent from "./components/mainComponent";
 
 function App() {
   return (
     <>
-      <ProfileForm />
+      <MainComponent />
     </>
   );
 }
